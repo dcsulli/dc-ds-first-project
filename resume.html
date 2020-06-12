@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
+     <style>   
+    p {
+        color: red;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h1{font-family:Verdana, Geneva, Tahoma, sans-serif ; color: purple; text-align:center;}
+    h2{font-family:'Times New Roman', Times, serif ; color: blue;}
+    h3{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; color: green;}
+        .my-header{
+        width: 350px;
+        height: 600px;
+        }
+        .odd{color: orange; font-size: 15px;}
+        .even{color: brown; font-size: 15px;}
+        #experienceID{color:skyblue;}
+        div > ul {background-color: orange;}
+        #image-container{background-color: aqua; 
+            padding-top: 20px; 
+            padding-bottom: 20px;
+            margin-top:100px;
+            margin-bottom: 100px;
+            padding-left: 300px;
+            padding-right: 300px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+      </style>
 
     </head>
     <body>
         <h1>David Sullivan</h1>
         <p>770-334-4343</p>
         <p>dcsulli@gmail.com</p>
-        <img width="50" height="50" src="https://scontent.fatl1-1.fna.fbcdn.net/v/t1.0-9/p960x960/82221569_10215905811174592_8758595007071387648_o.jpg?_nc_cat=109&_nc_sid=7aed08&_nc_oc=AQnDnHQ9eaQZzQTiXHt-xEcFnYN6xjk2C1tx4DdPTPJe6xwFClNAhxtMfCnF8b3eGXo&_nc_ht=scontent.fatl1-1.fna&_nc_tp=6&oh=e45fafc9237556c0a76123d3f4124d5d&oe=5F04BA26">
+        <div id="image-container">
+        <img class="my-header"  src="https://scontent.fatl1-1.fna.fbcdn.net/v/t1.0-9/p960x960/82221569_10215905811174592_8758595007071387648_o.jpg?_nc_cat=109&_nc_sid=7aed08&_nc_oc=AQnDnHQ9eaQZzQTiXHt-xEcFnYN6xjk2C1tx4DdPTPJe6xwFClNAhxtMfCnF8b3eGXo&_nc_ht=scontent.fatl1-1.fna&_nc_tp=6&oh=e45fafc9237556c0a76123d3f4124d5d&oe=5F04BA26">
+        </div>
         <h3>Professional Summary</h3>
+        
         <p>I am a liscensed Financial Services Represntative, Musician, Gamer.
-        <h3>Experinces</h3>    
-        <h5>Financial Services Represntative</h5>
+        
+            <h3 id="experienceID">Experinces</h3>    
+        
+        <h5 class="even">Financial Services Represntative</h5>
         <ul>
             <li>Maintain relationships with clients in a high value market segment</li>    
         </ul>
+
         <h5>Database Management - Oncue</h5>
         <ul>
             <li>Maintained a database of alcohol and liquors</li>
             <li>over 50,000 items!</li>
         </ul>
-        <h5>Chick-fil-a</h5>
+        <h5 class="odd">Chick-fil-a</h5>
         <ul>
             <li>Cashier</li>
             <li>served food with a smile</li>
